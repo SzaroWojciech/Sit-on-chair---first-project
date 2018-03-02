@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.center{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    background: black;
+    height: 50px;
+    text-transform: uppercase;
+}
+nav > ul{
+    color: white;
+    list-style-type: none;
+    
+}
+.submenu{
+    display: none;
+}
+#kolorowe-on{
+    color: #24C9AB;
+}
+.pull-left p{
+    float: left;
+    word-spacing: 5px;
+}
+.page-logo{
+    color:white;  
+    padding: 15px;
+}
+
+.menu > li{
+    float:right;
+    padding: 15px;
+}
+.big-article{
+    height: 400px;
+    padding-top: 50px;
+}
+.first-section-image{
+    background-image: url(../images/black_chair.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover
+}
+.first-section-article{
+    width: 50%;
+    padding-top: 60px
+}
+#big-article-h1{
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+.big-article-button{
+    font-size: 20px;
+    background-color: #24C9AB;
+    border-radius: 5px 5px;
+    width: 300px;
+    height: 30px;
+    text-align:center;
+    margin: 10px 0 0 95px;
+    font-weight: 500;
+    box-shadow: 0 0 2px #24C9AB;
+}

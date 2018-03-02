@@ -1,0 +1,5 @@
+$(function() {
+    $('#auctions').click(function(){
+      $('.submenu').slideToggle();
+    });
+});
