@@ -36,7 +36,7 @@ nav > ul{
 }
 .pull-left p{
     float: left;
-    word-spacing: 5px;
+    font-weight: 500;
 }
 .page-logo{
     color:white;  
@@ -49,7 +49,19 @@ nav > ul{
 }
 .big-article{
     height: 400px;
-    padding-top: 50px;
+    padding 50px 0 40px 0;
+    
+}
+.big-article-section{
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(224,239,249,1) 7%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(7%, rgba(224,239,249,1)), color-stop(50%, rgba(216,225,231,1)), color-stop(100%, rgba(181,198,208,1)));
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(224,239,249,1) 7%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(224,239,249,1) 7%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(224,239,249,1) 7%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%);
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(224,239,249,1) 7%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#b5c6d0', GradientType=0 );
+    margin-bottom: 50px;
 }
 .first-section-image{
     background-image: url(../images/black_chair.png);
@@ -59,10 +71,10 @@ nav > ul{
 }
 .first-section-article{
     width: 50%;
-    padding-top: 60px
+    padding-top: 40px
 }
 #big-article-h1{
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
@@ -75,7 +87,30 @@ nav > ul{
     width: 300px;
     height: 30px;
     text-align:center;
-    margin: 10px 0 0 95px;
+    margin: 20px 0 0 95px;
     font-weight: 500;
     box-shadow: 0 0 2px #24C9AB;
+}
+
+.left-image{
+    background-image: url(../images/box1_img.jpg);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.middle-image{
+    background-image: url(../images/box1_img.jpg);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.right-article{
+    background-image: url(../images/box1_img.jpg);
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
 }
